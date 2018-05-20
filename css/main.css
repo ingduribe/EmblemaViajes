@@ -1,0 +1,83 @@
+.dropdown-item:hover{
+    background: #428bca;
+    color: #FFFF;
+}
+.img-fluid{
+    max-height: 80vh;
+}
+.redes{
+    color: white;
+    font-size: 12px;
+}
+.redes:hover{
+	color:white;
+    text-decoration: none;
+}
+.slide{
+	min-height: 100px;
+}
+.reserva{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.motor{
+  position: absolute;
+  margin-top: -67vh;
+  margin-left: 25vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+.display-4{
+	font-size: 2em;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#logo{
+	min-width: 110px;
+}
+i{
+  color: white
+}
+
+.ofertas{
+  margin-top: -18vh;
+}
+#navbar-primera{
+  margin-top: 10vh;
+}
+@media (max-width: 1130px) {
+  .icons{
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .ofertas {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .motor {
+    position: relative;
+    margin: 0 auto;
+    background-color: #191919;
+    color: white;
+  }
+}
