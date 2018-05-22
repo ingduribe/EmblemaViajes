@@ -4,7 +4,6 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <meta name="viewport" content="width=device-width">   
     <title>EmblemaViajes</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="carouselengine/amazingcarousel.js"></script>
     <link rel="stylesheet" type="text/css" href="carouselengine/initcarousel-1.css">
@@ -13,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
     
 </head>
