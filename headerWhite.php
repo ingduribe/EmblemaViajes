@@ -13,7 +13,6 @@
         <div class="dropdown-menu text-center" aria-labelledby="accesoDropdown">
           <a class="dropdown-item" href="#">Clientes</a>
           <a class="dropdown-item" href="#">Hoteles</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Empresas</a>
           <a class="dropdown-item" href="#">Agencias</a>
         </div>
@@ -25,7 +24,6 @@
         <div class="dropdown-menu text-center" aria-labelledby="registroDropdown">
           <a class="dropdown-item" href="#">Clientes</a>
           <a class="dropdown-item" href="#">Hoteles</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Empresas</a>
           <a class="dropdown-item" href="#">Agencias</a>
         </div>
