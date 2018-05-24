@@ -25,6 +25,7 @@
         include_once 'motor.php';
         include_once 'carouselClientes.php';
         include_once 'mediosPagos.php';
+        include_once 'servicios.php';
         include_once 'footer.php';
     ?>
 

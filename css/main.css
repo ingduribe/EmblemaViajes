@@ -1,3 +1,9 @@
+.img-thumbnail{
+  min-width: 130px;
+}
+.img-thumbnail:hover{
+  filter: brightness(2);
+}
 .dropdown-item:hover{
     background: #428bca;
     color: #FFFF;
@@ -78,5 +84,8 @@ i{
     margin: 0 auto;
     background-color: #191919;
     color: white;
+  }
+  #mediosPago{
+    text-align: center;
   }
 }
