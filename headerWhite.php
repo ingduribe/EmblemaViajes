@@ -23,7 +23,7 @@
         </a>
         <div class="dropdown-menu text-center" aria-labelledby="registroDropdown">
           <a class="dropdown-item" href="#">Clientes</a>
-          <a class="dropdown-item" href="#">Hoteles</a>
+          <a class="dropdown-item" id="RegistroHoteles" href="#">Hoteles</a>
           <a class="dropdown-item" href="#">Empresas</a>
           <a class="dropdown-item" href="#">Agencias</a>
         </div>
@@ -34,4 +34,7 @@
       </li>
     </ul>
   </div>
+
 </nav>
+
+

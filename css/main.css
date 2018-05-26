@@ -1,3 +1,9 @@
+#formHoteles1{
+  display: none;
+}
+#formuHoteles1{
+
+}
 .img-thumbnail{
   min-width: 130px;
 }
@@ -86,6 +92,12 @@ i{
     color: white;
   }
   #mediosPago{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px){
+  #formHoteles1{
     text-align: center;
   }
 }
