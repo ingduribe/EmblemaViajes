@@ -28,9 +28,7 @@
           <a class="dropdown-item" href="#">Agencias</a>
         </div>
       </li>
-        <button class="btn btn-outline-primary font-weight-bold" role="button">
-          Llamanos gratis 3008132438
-        </button>
+        <a href="intent://send/+573008132438#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">Enviar</a>
       </li>
     </ul>
   </div>
