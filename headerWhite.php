@@ -28,7 +28,11 @@
           <a class="dropdown-item" href="#">Agencias</a>
         </div>
       </li>
-        <a href="intent://send/+573008132438#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">Enviar</a>
+        <button class="btn btn-outline-primary font-weight-bold" 
+        href="intent://send/+573008132438#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end" 
+        role="button">
+          Contactanos 3008132438
+        </button>
       </li>
     </ul>
   </div>
