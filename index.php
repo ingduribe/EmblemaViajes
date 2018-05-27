@@ -20,7 +20,7 @@
     <?php 
         include_once 'headerWhite.php';
         include_once 'headerBlack.php';
-        include_once 'formulario1hoteles.php';
+        include_once 'registroHoteles.php';
         include_once 'carousel.php';
         include_once 'ofertas.php';
         include_once 'motor.php';
