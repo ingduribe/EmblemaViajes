@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$("#formHoteles1").dialog({
 			modal:true,
 			resizable:true,
-			width: '90vw',
+			width: '95vw',
 			dialogClass: "no-close success-dialog"
 		});
 	});
@@ -14,6 +14,11 @@ $(document).ready(function(){
 	$("#cerrarDialog").click(function(){
 		$("#formHoteles1").dialog('close');
 	}) 
+
+	function generarTipoHabi(tipo_habitacion){
+		var tipoHab = tipo_habitacion.nombre_habitacion.selectedIndex;
+		console.log(tipoHab);
+	}
 	
 })
 

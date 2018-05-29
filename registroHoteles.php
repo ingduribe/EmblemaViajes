@@ -6,14 +6,9 @@
         include_once './formularioRegistroHoteles/infoGeneral.php';
         include_once './formularioRegistroHoteles/Software-Web.php';
         include_once './formularioRegistroHoteles/infoFiscal.php';
+        include_once './formularioRegistroHoteles/infoHabitacion.php';
       ?>
       
-
-      
-      
-
-
-
         <button type="submit" class="btn btn-outline-success btn-block">Guardar datos</button>
         <button type="submit" class="btn btn-outline-danger btn-block" id="cerrarDialog">Cerrar</button>
 
