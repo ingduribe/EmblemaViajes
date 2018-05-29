@@ -1,4 +1,4 @@
-<div class="container mt-1" id="formHoteles1">
+<div class="container-fluid mt-1" id="formHoteles1">
   <p class="display-3 text-center">Registre su propiedad</p>
     
       <?php 

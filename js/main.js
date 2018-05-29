@@ -15,10 +15,7 @@ $(document).ready(function(){
 		$("#formHoteles1").dialog('close');
 	}) 
 
-	function generarTipoHabi(tipo_habitacion){
-		var tipoHab = tipo_habitacion.nombre_habitacion.selectedIndex;
-		console.log(tipoHab);
-	}
+	
 	
 })
 
