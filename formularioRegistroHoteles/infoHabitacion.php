@@ -22,7 +22,7 @@
 
           <div class="col-md-6 text-center">
             <select class="form-control" id="nombre_habitacion" name="nombre_habitacion">
-              <option>Nombre de habitación</option>
+              <option selected="selected">Nombre de habitación</option>
             </select>
           </div>
         </div>
@@ -69,24 +69,215 @@
 	            </select>
         	</div>
         </div>
-        <table class="table table-dark">
-		  <thead>
-		    <tr>
-		      <th scope="col">Tipo de habitación</th>
-		      <th scope="col">Nombre de habitación</th>
-		      <th scope="col">Numero de habitaciones</th>
-		      <th scope="col">Camas</th>
-		      <th scope="col">Numero de Camas</th>
-		      <th scope="col">Camas supletorias</th>
-		      <th scope="col">Cunas</th>
-		    </tr>
-		  </thead>
-		  <tbody>
 
-		  </tbody>
-		</table>
+        <div class="row text-center">
+        	<div class="col-md-6 text-center">
+        		<div class="form-group row">
+        			<div class="col-md-8">
+        				Baño compartido
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="banoComp">
+        				No<input type="radio" name="banoComp">
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 text-center">
+				<div class="form-group row">
+        			<div class="col-md-8">
+        				Habitaciones para alergicos
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="HabiAler">
+        				No<input type="radio" name="HabiAler">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="row text-center">
+        	<div class="col-md-6 text-center">
+        		<div class="form-group row">
+        			<div class="col-md-8">
+        				Habitaciones para no fumadores
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="no-fum">
+        				No<input type="radio" name="no-fum">
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 text-center">
+				<div class="form-group row">
+        			<div class="col-md-8">
+        				Aire acondicionado
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="aire-acon">
+        				No<input type="radio" name="aire-acon">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="row text-center">
+        	<div class="col-md-6 text-center">
+        		<div class="form-group row">
+        			<div class="col-md-8">
+        				Calefacción central
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="cale">
+        				No<input type="radio" name="cale">
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 text-center">
+				<div class="form-group row">
+        			<div class="col-md-8">
+        				Ventanas articuladas
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="venta">
+        				No<input type="radio" name="venta">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="row text-center">
+        	<div class="col-md-6 text-center">
+        		<div class="form-group row">
+        			<div class="col-md-8">
+        				Chimenea
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="chime">
+        				No<input type="radio" name="chime">
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 text-center">
+				<div class="form-group row">
+        			<div class="col-md-8">
+        				Perros
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="perros">
+        				No<input type="radio" name="perros">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="row text-center">
+        	<div class="col-md-6 text-center">
+        		<div class="form-group row">
+        			<div class="col-md-8">
+        				Otros animales de compañía
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="otros-ani">
+        				No<input type="radio" name="otros-ani">
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 text-center">
+				<div class="form-group row">
+        			<div class="col-md-8">
+        				Acceso para discapacitados
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="acc-disca">
+        				No<input type="radio" name="acc-disca">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="row text-center">
+        	<div class="col-md-6 text-center">
+        		<div class="form-group row">
+        			<div class="col-md-8">
+        				Llave electrónica/magnética
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="llave">
+        				No<input type="radio" name="llave">
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 text-center">
+				<div class="form-group row">
+        			<div class="col-md-8">
+        				Ventanas insonorizadas
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="venta-inso">
+        				No<input type="radio" name="venta-inso">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+         <div class="row text-center">
+        	<div class="col-md-6 text-center">
+        		<div class="form-group row">
+        			<div class="col-md-8">
+        				Conexión entre habitaciones
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="cone-habi">
+        				No<input type="radio" name="cone-habi">
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 text-center">
+				<div class="form-group row">
+        			<div class="col-md-8">
+        				Caja fuerte (código)
+        			</div>
+        			<div class="col-md-4"> 
+        				Si<input type="radio" name="caja-fu">
+        				No<input type="radio" name="caja-fu">
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+
+        <div class="table-responsive">
+        	<table class="table table-hover table-light">
+			  <thead class="thead-dark">
+			    <tr>
+			      <th scope="col">Tipo de habitación</th>
+			      <th scope="col"># de habitaciones</th>
+			      <th scope="col">Camas</th>
+			      <th scope="col"># de Camas</th>
+			      <th scope="col">Camas supletorias</th>
+			      <th scope="col">Cunas</th>
+			    </tr>
+			  </thead>
+			  <tbody id="tbody">
+				  
+			  </tbody>
+			</table>
+        </div>
+       
 		<div id="datos"></div>
-		<button id="guardarHabitacion" class="btn btn-outline-dark">Añadir habitación</button>
+		<button id="guardarHabitacion" class="btn btn-outline-primary">Añadir habitación</button>
+		<div class="row justify-content-around p-3">
+            <button type="button" class="btn btn-success">Guardar y seguir</button>
+            <button type="button" class="btn btn-outline-success">Guardar y seguir despues</button>
+        </div>
 		
 	</div>
 </form>
