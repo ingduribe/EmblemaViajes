@@ -12,4 +12,6 @@
         <button type="submit" class="btn btn-outline-success btn-block">Guardar datos</button>
         <button type="submit" class="btn btn-outline-danger btn-block" id="cerrarDialog">Cerrar</button>
 
+        <script src="./js/datos.js"></script>
+
 </div>

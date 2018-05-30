@@ -14,8 +14,6 @@ $(document).ready(function(){
 	$("#cerrarDialog").click(function(){
 		$("#formHoteles1").dialog('close');
 	}) 
-
-	
 	
 })
 

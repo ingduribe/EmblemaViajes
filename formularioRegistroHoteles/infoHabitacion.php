@@ -4,25 +4,24 @@
 
 	  	<div class="form-group row">
           <div class="col-md-6 text-center">
-          	<small class="text-danger" id="errorTipo" ></small>
-            <select class="form-control" name="tipo_habitacion" onChange="generarTipoHabi(this.form)">
+            <select class="form-control" id="tipo_habitacion" name="tipo_habitacion" onChange="generarTipoHabi(this.form)">
               <option selected="selected">Tipo de habitación</option>
-              <option value="individual">Individual</option>
-              <option value="doble_t">Doble</option>
-              <option value="doble_t">Doble twin (2 camas)</option>
-              <option value="boble_">Doble 1 o 2 camas</option>
-              <option value="triple">Triple</option>
-              <option value="cuadruple">Cuadruple</option>
-              <option value="familiar">Familiar</option>
-              <option value="suite">Suite</option>
-              <option value="suite_j">Suite junior</option>
-              <option value="apartamento">Apartamento</option>
-              <option value="habitacion_c">Habitación compartida</option>
+              <option>Individual</option>
+              <option>Doble</option>
+              <option>Doble twin (2 camas)</option>
+              <option>Doble 1 o 2 camas</option>
+              <option>Triple</option>
+              <option>Cuadruple</option>
+              <option>Familiar</option>
+              <option>Suite</option>
+              <option>Suite junior</option>
+              <option>Apartamento</option>
+              <option>Habitación compartida</option>
             </select>
           </div>
 
           <div class="col-md-6 text-center">
-            <select class="form-control" name="nombre_habitacion">
+            <select class="form-control" id="nombre_habitacion" name="nombre_habitacion">
               <option>Nombre de habitación</option>
             </select>
           </div>
@@ -70,7 +69,24 @@
 	            </select>
         	</div>
         </div>
+        <table class="table table-dark">
+		  <thead>
+		    <tr>
+		      <th scope="col">Tipo de habitación</th>
+		      <th scope="col">Nombre de habitación</th>
+		      <th scope="col">Numero de habitaciones</th>
+		      <th scope="col">Camas</th>
+		      <th scope="col">Numero de Camas</th>
+		      <th scope="col">Camas supletorias</th>
+		      <th scope="col">Cunas</th>
+		    </tr>
+		  </thead>
+		  <tbody>
 
+		  </tbody>
+		</table>
+		<div id="datos"></div>
+		<button id="guardarHabitacion" class="btn btn-outline-dark">Añadir habitación</button>
 		
 	</div>
 </form>
@@ -91,7 +107,6 @@
 
 	function generarTipoHabi(formu){
 		var tipoHab = formu.tipo_habitacion.selectedIndex;
-		console.log(tipoHab)
 		formu.nombre_habitacion.length = nombre_hab_array[tipoHab].length;
 		for (var i = 0; i < formu.nombre_habitacion.length; i++) {
 			formu.nombre_habitacion.options[i].text = nombre_hab_array[tipoHab][i];
@@ -117,5 +132,6 @@
 			formu.numero_camas.appendChild(optionC);
 		}
 	}
+
 	
 </script>
