@@ -18,7 +18,8 @@
 <body>
   <?php 
   include_once 'headerWhite.php';
-        include_once 'headerBlack.php'; ?>
+        include_once 'headerBlack.php'; 
+        ?>
   
 
 <div class="container-fluid mt-1" >
