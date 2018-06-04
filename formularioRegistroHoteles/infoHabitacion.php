@@ -88,7 +88,7 @@
                         Habitaciones para alergicos
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="HabiAler" value="si">
+                        Si<input type="radio" name="HabiAler" value="si" checked>
                         No<input type="radio" name="HabiAler" value="no">
                     </div>
                 </div>
@@ -99,7 +99,7 @@
         				Aire acondicionado
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="aire-acon" value="si">
+        				Si<input type="radio" name="aire-acon" value="si" checked>
         				No<input type="radio" name="aire-acon" value="no">
         			</div>
         		</div>
@@ -114,7 +114,7 @@
         				Calefacción central
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="cale" value="si">
+        				Si<input type="radio" name="cale" value="si" checked>
         				No<input type="radio" name="cale" value="no">
         			</div>
         		</div>
@@ -126,7 +126,7 @@
         				Acceso para discapacitados
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="acc-disca" value="si">
+        				Si<input type="radio" name="acc-disca" value="si" checked>
         				No<input type="radio" name="acc-disca" value="no">
         			</div>
         		</div>
@@ -140,7 +140,7 @@
         				Llava electrónica/magnética
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="llave-elec" value="si">
+        				Si<input type="radio" name="llave-elec" value="si" checked>
         				No<input type="radio" name="llave-elec" value="no">
         			</div>
         		</div>
@@ -152,7 +152,7 @@
         				Ventanas insonorizadas
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="venta-inso" value="si">
+        				Si<input type="radio" name="venta-inso" value="si" checked>
         				No<input type="radio" name="venta-inso" value="no">
         			</div>
         		</div>
@@ -166,7 +166,7 @@
         				Conexión entre habitaciones
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="cone-habi" value="si">
+        				Si<input type="radio" name="cone-habi" value="si" checked>
         				No<input type="radio" name="cone-habi" value="no">
         			</div>
         		</div>
@@ -175,10 +175,10 @@
         	<div class="col-md-6 text-center">
 				<div class="form-group row">
         			<div class="col-md-8">
-        				Caja fuerte (código)
+        				Caja fuerte
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="caja-fu" value="si">
+        				Si<input type="radio" name="caja-fu" value="si" checked>
         				No<input type="radio" name="caja-fu" value="no">
         			</div>
         		</div>
@@ -192,7 +192,7 @@
                         Escritorio
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="escri" value="si">
+                        Si<input type="radio" name="escri" value="si" checked>
                         No<input type="radio" name="escri" value="no">
                     </div>
                 </div>
@@ -204,7 +204,7 @@
         				Sofa cama
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="sofa-cama" value="si">
+        				Si<input type="radio" name="sofa-cama" value="si" checked>
         				No<input type="radio" name="sofa-cama" value="no">
         			</div>
         		</div>
@@ -218,7 +218,7 @@
         				Cortinas opacas (Foscurit)
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="corti-opa" value="si">
+        				Si<input type="radio" name="corti-opa" value="si" checked>
         				No<input type="radio" name="corti-opa" value="no">
         			</div>
         		</div>
@@ -230,7 +230,7 @@
         				Plancha
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="plancha" value="si">
+        				Si<input type="radio" name="plancha" value="si" checked>
         				No<input type="radio" name="plancha" value="no">
         			</div>
         		</div>
@@ -244,7 +244,7 @@
                         Plancha pantalones
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="plancha-panta" value="si">
+                        Si<input type="radio" name="plancha-panta" value="si" checked>
                         No<input type="radio" name="plancha-panta" value="no">
                     </div>
                 </div>
@@ -256,7 +256,7 @@
                         Sala de estar
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="sala" value="si">
+                        Si<input type="radio" name="sala" value="si" checked>
                         No<input type="radio" name="sala" value="no">
                     </div>
                 </div>
@@ -270,7 +270,7 @@
         				Teléfono
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="telefono" value="si">
+        				Si<input type="radio" name="telefono" value="si" checked>
         				No<input type="radio" name="telefono" value="no">
         			</div>
         		</div>
@@ -282,7 +282,7 @@
         				Wi-fi
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="wifi" value="si">
+        				Si<input type="radio" name="wifi" value="si" checked>
         				No<input type="radio" name="wifi" value="no">
         			</div>
         		</div>
@@ -296,8 +296,8 @@
                         Pantalla TV 4:3
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-4:3" value="si">
-                        No<input type="radio" name="tv-4:3" value="no">
+                        Si<input type="radio" name="tv-4" value="si" checked>
+                        No<input type="radio" name="tv-4" value="no">
                     </div>
                 </div>
             </div>
@@ -308,8 +308,8 @@
                         Pantalla TV 16:9
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-16:9" value="si">
-                        No<input type="radio" name="tv-16:9" value="no">
+                        Si<input type="radio" name="tv-16" value="si" checked>
+                        No<input type="radio" name="tv-16" value="no">
                     </div>
                 </div>
             </div>
@@ -322,7 +322,7 @@
                         Pantalla TV plana
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-plana" value="si">
+                        Si<input type="radio" name="tv-plana" value="si" checked>
                         No<input type="radio" name="tv-plana" value="no">
                     </div>
                 </div>
@@ -334,7 +334,7 @@
                         TV satélite
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-sat" value="si">
+                        Si<input type="radio" name="tv-sat" value="si" checked>
                         No<input type="radio" name="tv-sat" value="no">
                     </div>
                 </div>
@@ -348,7 +348,7 @@
                         TV/Canal de video de pago
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-pago" value="si">
+                        Si<input type="radio" name="tv-pago" value="si" checked>
                         No<input type="radio" name="tv-pago" value="no">
                     </div>
                 </div>
@@ -360,7 +360,7 @@
                         Servicio en habitaciones
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="servi-habit" value="si">
+                        Si<input type="radio" name="servi-habit" value="si" checked>
                         No<input type="radio" name="servi-habit" value="no">
                     </div>
                 </div>
@@ -374,7 +374,7 @@
                        Mini-bar
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="mini-bar" value="si">
+                        Si<input type="radio" name="mini-bar" value="si" checked>
                         No<input type="radio" name="mini-bar" value="no">
                     </div>
                 </div>
@@ -386,7 +386,7 @@
                         Kettle (cafetera y tetera)
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="kettle" value="si">
+                        Si<input type="radio" name="kettle" value="si" checked>
                         No<input type="radio" name="kettle" value="no">
                     </div>
                 </div>
@@ -400,7 +400,7 @@
                        Cocina equipada
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="cocina" value="si">
+                        Si<input type="radio" name="cocina" value="si" checked>
                         No<input type="radio" name="cocina" value="no">
                     </div>
                 </div>
@@ -412,7 +412,7 @@
                         Kitchenette
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="kitchenette" value="si">
+                        Si<input type="radio" name="kitchenette" value="si" checked>
                         No<input type="radio" name="kitchenette" value="no">
                     </div>
                 </div>
@@ -426,7 +426,7 @@
                        Espejo maquillaje
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="espejo" value="si">
+                        Si<input type="radio" name="espejo" value="si" checked>
                         No<input type="radio" name="espejo" value="no">
                     </div>
                 </div>
@@ -438,7 +438,7 @@
                         Amenities de baño
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="amenities-bano" value="si">
+                        Si<input type="radio" name="amenities-bano" value="si" checked>
                         No<input type="radio" name="amenities-bano" value="no">
                     </div>
                 </div>
@@ -453,7 +453,7 @@
                         Insonorización
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="insonorizacion" value="si">
+                        Si<input type="radio" name="insonorizacion" value="si" checked>
                         No<input type="radio" name="insonorizacion" value="no">
                     </div>
                 </div>
@@ -465,7 +465,7 @@
                        Conexión para PC
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="conec-pc" value="si">
+                        Si<input type="radio" name="conec-pc" value="si" checked>
                         No<input type="radio" name="conec-pc" value="no">
                     </div>
                 </div>
@@ -479,7 +479,7 @@
                        Nevera
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="nevera" value="si">
+                        Si<input type="radio" name="nevera" value="si" checked>
                         No<input type="radio" name="nevera" value="no">
                     </div>
                 </div>
@@ -491,7 +491,7 @@
                         Lavadora
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="lavadora" value="si">
+                        Si<input type="radio" name="lavadora" value="si" checked>
                         No<input type="radio" name="lavadora" value="no">
                     </div>
                 </div>
@@ -505,7 +505,7 @@
                        Toallas
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="toallas" value="si">
+                        Si<input type="radio" name="toallas" value="si" checked>
                         No<input type="radio" name="toallas" value="no">
                     </div>
                 </div>
@@ -517,7 +517,7 @@
                        Lavavajillas
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="lavavajillas" value="si">
+                        Si<input type="radio" name="lavavajillas" value="si" checked>
                         No<input type="radio" name="lavavajillas" value="no">
                     </div>
                 </div>
@@ -532,7 +532,7 @@
                        Secadora
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="secadora" value="si">
+                        Si<input type="radio" name="secadora" value="si" checked>
                         No<input type="radio" name="secadora" value="no">
                     </div>
                 </div>
@@ -544,7 +544,7 @@
                         Baño privado
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="bano-priv" value="si">
+                        Si<input type="radio" name="bano-priv" value="si" checked>
                         No<input type="radio" name="bano-priv" value="no">
                     </div>
                 </div>
@@ -558,10 +558,14 @@
                         Baño compartido
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="bano-comp" value="si">
+                        Si<input type="radio" name="bano-comp" value="si" checked>
                         No<input type="radio" name="bano-comp" value="no">
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <label for="observaciones">Digite observaciones, que no esten en los radio botones</label>
+                <textarea class="form-control" id="observaciones" rows="3" cols="4"></textarea>
             </div>
         </div>
 
@@ -583,11 +587,54 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        Aqui irian los datos de los si y no
+      <div class="modal-body2">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Hab para alergicos</th>
+              <th scope="col">Aire acond.</th>
+              <th scope="col">Calefacción</th>
+              <th scope="col">Acc. para discapacitados</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr1"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Llave</th>
+              <th scope="col">Ventanas insonorizadas</th>
+              <th scope="col">Con. entre habitaciones</th>
+              <th scope="col">Caja fuerte</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr2"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Escritorio</th>
+              <th scope="col">Sofa-cama</th>
+              <th scope="col">Cortinas opacas</th>
+              <th scope="col">Plancha</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr3"></tr>
+
+          </tbody>
+        </table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

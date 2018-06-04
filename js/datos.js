@@ -9,12 +9,15 @@ $(document).ready(function(){
 
 	var habitaciones = [];
 	var tbody = $("#tbody");
-	var modalBody = $(".modal-body");
+    var tr1 = $("#tr1");
+    var tr2 = $("#tr2");
+    var tr3 = $("#tr3");
 
 	function listar(){
 		var data = '';
-		var servi = '';
+        
 		if (habitaciones.length>=0) {
+            var j = 0;
 			for (i = 0; i < habitaciones.length; i++) {
 				data += '<tr class="fila">';
 		        data += '<td>' + habitaciones[i].nombreHabit+ '</td>';
@@ -23,16 +26,11 @@ $(document).ready(function(){
 		        data += '<td>' + habitaciones[i].numCamas + '</td>';
 		        data += '<td>' + habitaciones[i].camasS + '</td>';
 		        data += '<td>' + habitaciones[i].cunas + '</td>';
-		        data += '<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" value=('+i+')>Ver servicios</button></td>';
-		        data += '<td><button class="btn btn-danger eliminar" value=('+i+')>Eliminar</button></td>';
+		        data += '<td><button type="button" class="btn btn-primary descripcion" data-toggle="modal" data-target="#exampleModalLong" value="'+i+'">Ver servicios</button></td>';
+		        data += '<td><button class="btn btn-danger eliminar" value="'+i+'">Eliminar</button></td>';
 		        data += '</tr>';
-
-		        servi+= '<p> Holaaaa'+habitaciones[i].banoComp+'</p>'
 			}
-
 		    tbody.html(data);
-		    modalBody.html(servi);
-
 		
 		}
 	}
@@ -52,88 +50,39 @@ $(document).ready(function(){
     	var aire_acon = $('input:radio[name=aire-acon]:checked').val();
     	var cale = $('input:radio[name=cale]:checked').val();
     	var acc_disca = $('input:radio[name=acc-disca]:checked').val();
-    	var llave = $('input:radio[name=llave]:checked').val();
+    	var llave = $('input:radio[name=llave-elec]:checked').val();
     	var venta_inso = $('input:radio[name=venta-inso]:checked').val();
     	var cone_habi = $('input:radio[name=cone-habi]:checked').val();
     	var caja_fu = $('input:radio[name=caja-fu]:checked').val();
-    	var caja_fu_lla = $('input:radio[name=caja-fu-lla]:checked').val();
-    	var sifa_ca = $('input:radio[name=sifa-ca]:checked').val();
-    	var red_elec = $('input:radio[name=red-elec]:checked').val();
-    	var cuna = $('input:radio[name=cuna]:checked').val();
-    	var lampa_lectu = $('input:radio[name=lampa-lectu]:checked').val();
-    	var luz_noctu = $('input:radio[name=luz-noctu]:checked').val();
+    	var escritorio = $('input:radio[name=escri]:checked').val();
+    	var sofac = $('input:radio[name=sofa-cama]:checked').val();
     	var corti_opa = $('input:radio[name=corti-opa]:checked').val();
     	var plancha = $('input:radio[name=plancha]:checked').val();
     	var plancha_panta = $('input:radio[name=plancha-panta]:checked').val();
-    	var prensa = $('input:radio[name=prensa]:checked').val();
     	var sala = $('input:radio[name=sala]:checked').val();
     	var telefono = $('input:radio[name=telefono]:checked').val();
-    	var linea_telef = $('input:radio[name=linea-telef]:checked').val();
-    	var llama_local_grat = $('input:radio[name=llama-local-grat]:checked').val();
-    	var mensaj_voz = $('input:radio[name=mensaj-voz]:checked').val();
-    	var net_grat = $('input:radio[name=net-grat]:checked').val();
-    	var net_alta_vel = $('input:radio[name=net-alta-vel]:checked').val();
-    	var net_tel = $('input:radio[name=net-tel]:checked').val();
-    	var net_ina = $('input:radio[name=net-ina]:checked').val();
+        var wifi = $('input:radio[name=wifi]:checked').val();
     	var tv4 = $('input:radio[name=tv-4]:checked').val();
     	var tv16 = $('input:radio[name=tv-16]:checked').val();
     	var tv_plana = $('input:radio[name=tv-plana]:checked').val();
     	var tv_sat = $('input:radio[name=tv-sat]:checked').val();
     	var tv_pago = $('input:radio[name=tv-pago]:checked').val();
-    	var tv_inter = $('input:radio[name=tv-inter]:checked').val();
-    	var web_tv = $('input:radio[name=web-tv]:checked').val();
-    	var video_club = $('input:radio[name=video-club]:checked').val();
-    	var dvd = $('input:radio[name=dvd]:checked').val();
-    	var vcr = $('input:radio[name=vcr]:checked').val();
-    	var video_jueg = $('input:radio[name=video-jueg]:checked').val();
-    	var canales_music = $('input:radio[name=canales-music]:checked').val();
-    	var hi_fi = $('input:radio[name=hi-fi]:checked').val();
-    	var radio = $('input:radio[name=radio]:checked').val();
-    	var seca_ropa = $('input:radio[name=seca-ropa]:checked').val();
-    	var repro_cd = $('input:radio[name=repro-cd]:checked').val();
     	var servi_habit = $('input:radio[name=servi-habit]:checked').val();
-    	var servi_habitNo = $('input:radio[name=servi-habitNo]:checked').val();
     	var mini_bar = $('input:radio[name=mini-bar]:checked').val();
-    	var bot_agua = $('input:radio[name=bot-agua]:checked').val();
     	var kettle = $('input:radio[name=kettle]:checked').val();
     	var cocina = $('input:radio[name=cocina]:checked').val();
     	var kitchenette = $('input:radio[name=kitchenette]:checked').val();
-    	var eq_cocina = $('input:radio[name=eq-cocina]:checked').val();
-    	var micro = $('input:radio[name=micro]:checked').val();
-    	var tostador = $('input:radio[name=tostador]:checked').val();
-    	var secador = $('input:radio[name=secador]:checked').val();
-    	var espejo = $('input:radio[name=espejo]:checked').val();
-    	var artic_bano = $('input:radio[name=artic-bano]:checked').val();
-    	var artic_bano_dise = $('input:radio[name=artic-bano-dise]:checked').val();
-    	var bidet = $('input:radio[name=bidet]:checked').val();
-    	var calent_toallas = $('input:radio[name=calent-toallas]:checked').val();
-    	var telef_bano = $('input:radio[name=telef-bano]:checked').val();
-    	var tv_bano = $('input:radio[name=tv-bano]:checked').val();
-    	var tendedor = $('input:radio[name=tendedor]:checked').val();
-    	var rayos_uva = $('input:radio[name=rayos-uva]:checked').val();
-    	var tocador = $('input:radio[name=tocador]:checked').val();
-    	var costurero = $('input:radio[name=costurero]:checked').val();
+        var espejo = $('input:radio[name=espejo]:checked').val();
+    	var amenities_bano = $('input:radio[name=amenities-bano]:checked').val();
     	var insonorizacion = $('input:radio[name=insonorizacion]:checked').val();
-    	var conect_2_ordena = $('input:radio[name=conect-2-ordena]:checked').val();
-    	var tv_normal = $('input:radio[name=tv-normal]:checked').val();
-    	var prensa_diaria = $('input:radio[name=prensa-diaria]:checked').val();
-    	var amenities = $('input:radio[name=amenities]:checked').val();
-    	var bano_minus = $('input:radio[name=bano-minus]:checked').val();
-    	var caja_segu = $('input:radio[name=caja-segu]:checked').val();
-    	var cale_indiv = $('input:radio[name=cale-indiv]:checked').val();
-    	var enmoquetado = $('input:radio[name=enmoquetado]:checked').val();
+    	var conect_pc = $('input:radio[name=conec-pc]:checked').val();
     	var nevera = $('input:radio[name=nevera]:checked').val();
-    	var horno = $('input:radio[name=horno]:checked').val();
-    	var lavadora = $('input:radio[name=lavadora]:checked').val();
-    	var toallas = $('input:radio[name=toallas]:checked').val();
-    	var tv_sat_algu_habit = $('input:radio[name=tv-sat-algu-habit]:checked').val();
-    	var tv_sat_otras_habit = $('input:radio[name=tv-sat-otras-habit]:checked').val();
-    	var lavavajillas = $('input:radio[name=lavavajillas]:checked').val();
-    	var wifi = $('input:radio[name=wifi]:checked').val();
-    	var wifi_gratis = $('input:radio[name=wifi-gratis]:checked').val();
-
-
-    	console.log(banoComp,HabiAler,no_fum,aire_acon,cale,venta,chime)
+        var lavadora = $('input:radio[name=lavadora]:checked').val();
+        var toallas = $('input:radio[name=toallas]:checked').val();
+        var lavavajillas = $('input:radio[name=lavavajillas]:checked').val();
+    	var secadora = $('input:radio[name=secadora]:checked').val();
+    	var bano_priv = $('input:radio[name=bano-priv]:checked').val();
+        var observaciones = $("#observaciones").val();
 
 		var nuevaHabi = {
 			'inde': index,
@@ -144,15 +93,48 @@ $(document).ready(function(){
 			'numCamas':numCamas,
 			'camasS':camasS,
 			'cunas':cunas,
-			'banoComp':banoComp,
+
 			'HabiAler':HabiAler,
-			'no_fum':no_fum,
 			'aire_acon':aire_acon,
 			'cale':cale,
-			'venta':venta
+			'acc_disca':acc_disca,
+            'llave':llave,
+            'venta_inso':venta_inso,
+            'cone_habi':cone_habi,
+            'caja_fu':caja_fu,
+            'escritorio':escritorio,
+            'sofac':sofac,
+            'corti_opa':corti_opa,
+            'plancha':plancha,
+            'plancha_panta':plancha_panta,
+            'sala':sala,
+            'telefono':telefono,
+            'wifi':wifi,
+            'tv4':tv4,
+            'tv16':tv16,
+            'tv_plana':tv_plana,
+            'tv_sat':tv_sat,
+            'tv_pago':tv_pago,
+            'servi_habit':servi_habit,
+            'mini_bar':mini_bar,
+            'kettle':kettle,
+            'cocina':cocina,
+            'kitchenette':kitchenette,
+            'espejo':espejo,
+            'amenities_bano':amenities_bano,
+            'insonorizacion':insonorizacion,
+            'conect_pc':conect_pc,
+            'nevera':nevera,
+            'lavadora':lavadora,
+            'toallas':toallas,
+            'lavavajillas':lavavajillas,
+            'secadora':secadora,
+            'bano_priv':bano_priv,
+            'observaciones':observaciones
 		}
 
 		habitaciones.push(nuevaHabi);
+        console.log(habitaciones)
 		listar();
 
 		
@@ -167,13 +149,45 @@ $(document).ready(function(){
 
 		$(document).on('click', '.eliminar', function (e) {  
 			e.preventDefault();
-			var indexElmi = $(this).val();
-			console.log(indexElmi);
-			var ini = indexElmi;
-			console.log(habitaciones[$(this).val()]);
-			listar();
+			var indexElim = $(this).val();
+            habitaciones.splice(indexElim,1);
+            listar();
 			
 	    })
+
+        $(document).on('click', '.descripcion', function (e) {  
+            e.preventDefault();
+            var servi1 = '';
+            var servi2 = '';
+            var servi3 = '';
+
+            var j = $(this).val();
+            
+            console.log(j);
+           
+            servi1+= '<td>'+habitaciones[j].HabiAler+'</td>';
+            servi1+= '<td>'+habitaciones[j].aire_acon+'</td>';
+            servi1+= '<td>'+habitaciones[j].cale+'</td>';
+            servi1+= '<td>'+habitaciones[j].acc_disca+'</td>';
+
+            servi2+= '<td>'+habitaciones[j].llave+'</td>';
+            servi2+= '<td>'+habitaciones[j].venta_inso+'</td>';
+            servi2+= '<td>'+habitaciones[j].cone_habi+'</td>';
+            servi2+= '<td>'+habitaciones[j].caja_fu+'</td>';
+
+            servi3+= '<td>'+habitaciones[j].escritorio+'</td>';
+            servi3+= '<td>'+habitaciones[j].sofac+'</td>';
+            servi3+= '<td>'+habitaciones[j].corti_opa+'</td>';
+            servi3+= '<td>'+habitaciones[j].plancha+'</td>';
+
+            tr1.html(servi1);
+            tr2.html(servi2);
+            tr3.html(servi3);
+
+
+            
+            
+        })
 	
 
 	
