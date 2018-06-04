@@ -48,15 +48,9 @@ $(document).ready(function(){
 		var cunas = $("#cunas").val();
 		var index = habitaciones.length;
 
-		var banoComp = $('input:radio[name=banoComp]:checked').val();
     	var HabiAler = $('input:radio[name=HabiAler]:checked').val();
-    	var no_fum = $('input:radio[name=no-fum]:checked').val();
     	var aire_acon = $('input:radio[name=aire-acon]:checked').val();
     	var cale = $('input:radio[name=cale]:checked').val();
-    	var venta = $('input:radio[name=venta]:checked').val();
-    	var chime = $('input:radio[name=chime]:checked').val();
-    	var perros = $('input:radio[name=perros]:checked').val();
-    	var otros_ani = $('input:radio[name=otros-ani]:checked').val();
     	var acc_disca = $('input:radio[name=acc-disca]:checked').val();
     	var llave = $('input:radio[name=llave]:checked').val();
     	var venta_inso = $('input:radio[name=venta-inso]:checked').val();
