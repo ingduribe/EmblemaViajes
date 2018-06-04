@@ -2,17 +2,17 @@ $(document).ready(function(){
 	$( "#datepickerLlegada" ).datepicker();
 	$( "#datepickerSalida" ).datepicker();
 
-	$( "#RegistroHoteles" ).click(function(){
-		$("#formHoteles1").dialog({
+	$( "#ServiviosHabitacion" ).click(function(){
+		$("#serviHabita").dialog({
 			modal:true,
 			resizable:true,
-			width: '95vw',
+			width: '80vw',
 			dialogClass: "no-close success-dialog"
 		});
 	});
 
 	$("#cerrarDialog").click(function(){
-		$("#formHoteles1").dialog('close');
+		$("#serviHabita").dialog('close');
 	}) 
 	
 })
