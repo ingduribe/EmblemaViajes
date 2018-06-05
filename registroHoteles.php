@@ -31,17 +31,23 @@
         include_once './formularioRegistroHoteles/Software-Web.php';
         include_once './formularioRegistroHoteles/infoFiscal.php';
         include_once './formularioRegistroHoteles/infoHabitacion.php';
+        include_once './formularioRegistroHoteles/serviciosPropiedad.php';
       ?>
       
         <button type="submit" class="btn btn-outline-success btn-block">Guardar datos</button>
 
-        <script src="./js/datos.js"></script>
+        <script src="./js/contacto.js"></script>
+        <script src="./js/fiscal.js"></script>
+        <script src="./js/general.js"></script>
+        <script src="./js/habitacion.js"></script>
+        <script src="./js/propiedad.js"></script>
+        <script src="./js/software.js"></script>
 
 </div>
 </body>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/main.js"></script>
