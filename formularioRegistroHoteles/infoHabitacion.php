@@ -82,8 +82,8 @@
       <h3 class="text-center">Servicios de habitaciones</h3>
 
         <div class="alert alert-danger text-center" id="alertDanger" role="alert">
-              <h4 class="alert-heading">Antes de comenzar, lee esta pequeña explicación</h4>
-              <p>Este formulario, es para agregar los servicios de la habitación, acontinuación veras servicios y seguido un 'Gratis' y 'Pago', si seleccionas 'Gratis' o 'Pago', quieres decir que ese servicio SI existe y es gratis o pago de acuerdo a la opcion seleccionada, de lo contrario, si dejas el servicio sin seleccionar ninguna opción, quieres decir que NO existe el servicio en la habitación.</p>
+              <h4 class="alert-heading">Antes de comenzar, lea esta pequeña explicación por favor</h4>
+              <p>En este formulario puede agregar los "Servicios de habitación". Puede seleccionar cada servicio si es "Gratis" o "Pago" para los servicios existentes. Los servicios que no seleccione "Gratis" o "Pago" quiere decir que NO existen como opción en la habitación. Por ejemplo si el tipo de habitación no dispone de aire acondicionado no seleccione ni "Gratis" ni tampoco "Pago".</p>
               <hr>
               <p class="mb-0"><button id="btnEntendido" class="btn btn-info">Entendido</button></p>
         </div>
