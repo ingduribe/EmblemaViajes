@@ -81,6 +81,13 @@
 <div id="serviHabita">
       <h3 class="text-center">Servicios de habitaciones</h3>
 
+        <div class="alert alert-danger text-center" id="alertDanger" role="alert">
+              <h4 class="alert-heading">Antes de comenzar, lee esta pequeña explicación</h4>
+              <p>Este formulario, es para agregar los servicios de la habitación, acontinuación veras servicios y seguido un 'Gratis' y 'Pago', si seleccionas 'Gratis' o 'Pago', quieres decir que ese servicio SI existe y es gratis o pago de acuerdo a la opcion seleccionada, de lo contrario, si dejas el servicio sin seleccionar ninguna opción, quieres decir que NO existe el servicio en la habitación.</p>
+              <hr>
+              <p class="mb-0"><button id="btnEntendido" class="btn btn-info">Entendido</button></p>
+        </div>
+
         <div class="row text-center">
             <div class="col-md-6 text-center">
                 <div class="form-group row">
@@ -88,8 +95,8 @@
                         Habitaciones para alergicos
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="HabiAler" value="si" checked>
-                        No<input type="radio" name="HabiAler" value="no">
+                        Gratis<input type="radio" name="HabiAler" value="gratis">
+                        Pago<input type="radio" name="HabiAler" value="pago">
                     </div>
                 </div>
             </div>
@@ -99,8 +106,8 @@
         				Aire acondicionado
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="aire-acon" value="si" checked>
-        				No<input type="radio" name="aire-acon" value="no">
+        				Gratis<input type="radio" name="aire-acon" value="gratis">
+        				Pago<input type="radio" name="aire-acon" value="pago">
         			</div>
         		</div>
         	</div>
@@ -114,8 +121,8 @@
         				Calefacción central
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="cale" value="si" checked>
-        				No<input type="radio" name="cale" value="no">
+        				Gratis<input type="radio" name="cale" value="gratis">
+        				Pago<input type="radio" name="cale" value="pago">
         			</div>
         		</div>
         	</div>
@@ -126,8 +133,8 @@
         				Acceso para discapacitados
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="acc-disca" value="si" checked>
-        				No<input type="radio" name="acc-disca" value="no">
+        				Gratis<input type="radio" name="acc-disca" value="gratis">
+        				Pago<input type="radio" name="acc-disca" value="pago">
         			</div>
         		</div>
         	</div>
@@ -140,8 +147,8 @@
         				Llava electrónica/magnética
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="llave-elec" value="si" checked>
-        				No<input type="radio" name="llave-elec" value="no">
+        				Gratis<input type="radio" name="llave-elec" value="gratis">
+        				Pago<input type="radio" name="llave-elec" value="pago">
         			</div>
         		</div>
         	</div>
@@ -152,8 +159,8 @@
         				Ventanas insonorizadas
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="venta-inso" value="si" checked>
-        				No<input type="radio" name="venta-inso" value="no">
+        				Gratis<input type="radio" name="venta-inso" value="gratis">
+        				Pago<input type="radio" name="venta-inso" value="pago">
         			</div>
         		</div>
         	</div>
@@ -166,8 +173,8 @@
         				Conexión entre habitaciones
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="cone-habi" value="si" checked>
-        				No<input type="radio" name="cone-habi" value="no">
+        				Gratis<input type="radio" name="cone-habi" value="gratis">
+        				Pago<input type="radio" name="cone-habi" value="pago">
         			</div>
         		</div>
         	</div>
@@ -178,8 +185,8 @@
         				Caja fuerte
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="caja-fu" value="si" checked>
-        				No<input type="radio" name="caja-fu" value="no">
+        				Gratis<input type="radio" name="caja-fu" value="gratis">
+        				Pago<input type="radio" name="caja-fu" value="pago">
         			</div>
         		</div>
         	</div>
@@ -192,8 +199,8 @@
                         Escritorio
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="escri" value="si" checked>
-                        No<input type="radio" name="escri" value="no">
+                        Gratis<input type="radio" name="escri" value="gratis">
+                        Pago<innput type="radio" name="escri" value="pago">
                     </div>
                 </div>
             </div>
@@ -204,8 +211,8 @@
         				Sofa cama
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="sofa-cama" value="si" checked>
-        				No<input type="radio" name="sofa-cama" value="no">
+        				Gratis<input type="radio" name="sofa-cama" value="gratis">
+        		        Pago<input type="radio" name="sofa-cama" value="pago">
         			</div>
         		</div>
         	</div>
@@ -218,8 +225,8 @@
         				Cortinas opacas (Foscurit)
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="corti-opa" value="si" checked>
-        				No<input type="radio" name="corti-opa" value="no">
+        				Gratis<input type="radio" name="corti-opa" value="gratis">
+        		        Pago<input type="radio" name="corti-opa" value="pago">
         			</div>
         		</div>
         	</div>
@@ -230,8 +237,8 @@
         				Plancha
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="plancha" value="si" checked>
-        				No<input type="radio" name="plancha" value="no">
+        				Gratis<input type="radio" name="plancha" value="gratis">
+        		        Pago<input type="radio" name="plancha" value="pago">
         			</div>
         		</div>
         	</div>
@@ -244,8 +251,8 @@
                         Plancha pantalones
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="plancha-panta" value="si" checked>
-                        No<input type="radio" name="plancha-panta" value="no">
+                        Gratis<input type="radio" name="plancha-panta" value="gratis">
+                        Pago<input type="radio" name="plancha-panta" value="pago">
                     </div>
                 </div>
             </div>
@@ -256,8 +263,8 @@
                         Sala de estar
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="sala" value="si" checked>
-                        No<input type="radio" name="sala" value="no">
+                        Gratis<input type="radio" name="sala" value="gratis">
+                        Pago<input type="radio" name="sala" value="pago">
                     </div>
                 </div>
             </div>
@@ -270,8 +277,8 @@
         				Teléfono
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="telefono" value="si" checked>
-        				No<input type="radio" name="telefono" value="no">
+        				Gratis<input type="radio" name="telefono" value="gratis">
+        		        Pago<input type="radio" name="telefono" value="pago">
         			</div>
         		</div>
         	</div>
@@ -282,8 +289,8 @@
         				Wi-fi
         			</div>
         			<div class="col-md-4"> 
-        				Si<input type="radio" name="wifi" value="si" checked>
-        				No<input type="radio" name="wifi" value="no">
+        				Gratis<input type="radio" name="wifi" value="gratis">
+        				Pago<input type="radio" name="wifi" value="pago">
         			</div>
         		</div>
         	</div>
@@ -296,8 +303,8 @@
                         Pantalla TV 4:3
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-4" value="si" checked>
-                        No<input type="radio" name="tv-4" value="no">
+                        Gratis<input type="radio" name="tv-4" value="gratis">
+                        Pago<input type="radio" name="tv-4" value="pago">
                     </div>
                 </div>
             </div>
@@ -308,8 +315,8 @@
                         Pantalla TV 16:9
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-16" value="si" checked>
-                        No<input type="radio" name="tv-16" value="no">
+                        Gratis<input type="radio" name="tv-16" value="gratis">
+                        Pago<input type="radio" name="tv-16" value="pago">
                     </div>
                 </div>
             </div>
@@ -322,8 +329,8 @@
                         Pantalla TV plana
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-plana" value="si" checked>
-                        No<input type="radio" name="tv-plana" value="no">
+                        Gratis<input type="radio" name="tv-plana" value="gratis">
+                        Pago<input type="radio" name="tv-plana" value="pago">
                     </div>
                 </div>
             </div>
@@ -334,8 +341,8 @@
                         TV satélite
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-sat" value="si" checked>
-                        No<input type="radio" name="tv-sat" value="no">
+                        Gratis<input type="radio" name="tv-sat" value="gratis">
+                        Pago<input type="radio" name="tv-sat" value="pago">
                     </div>
                 </div>
             </div>
@@ -348,8 +355,8 @@
                         TV/Canal de video de pago
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="tv-pago" value="si" checked>
-                        No<input type="radio" name="tv-pago" value="no">
+                        Gratis<input type="radio" name="tv-pago" value="gratis">
+                        Pago<input type="radio" name="tv-pago" value="pago">
                     </div>
                 </div>
             </div>
@@ -360,8 +367,8 @@
                         Servicio en habitaciones
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="servi-habit" value="si" checked>
-                        No<input type="radio" name="servi-habit" value="no">
+                        Gratis<input type="radio" name="servi-habit" value="gratis">
+                        Pago<input type="radio" name="servi-habit" value="pago">
                     </div>
                 </div>
             </div>
@@ -374,8 +381,8 @@
                        Mini-bar
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="mini-bar" value="si" checked>
-                        No<input type="radio" name="mini-bar" value="no">
+                        Gratis<input type="radio" name="mini-bar" value="gratis">
+                        Pago<input type="radio" name="mini-bar" value="pago">
                     </div>
                 </div>
             </div>
@@ -386,8 +393,8 @@
                         Kettle (cafetera y tetera)
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="kettle" value="si" checked>
-                        No<input type="radio" name="kettle" value="no">
+                        Gratis<input type="radio" name="kettle" value="gratis">
+                        Pago<input type="radio" name="kettle" value="pago">
                     </div>
                 </div>
             </div>
@@ -400,8 +407,8 @@
                        Cocina equipada
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="cocina" value="si" checked>
-                        No<input type="radio" name="cocina" value="no">
+                        Gratis<input type="radio" name="cocina" value="gratis">
+                        Pago<input type="radio" name="cocina" value="pago">
                     </div>
                 </div>
             </div>
@@ -412,8 +419,8 @@
                         Kitchenette
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="kitchenette" value="si" checked>
-                        No<input type="radio" name="kitchenette" value="no">
+                        Gratis<input type="radio" name="kitchenette" value="gratis">
+                        Pago<input type="radio" name="kitchenette" value="pago">
                     </div>
                 </div>
             </div>
@@ -426,8 +433,8 @@
                        Espejo maquillaje
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="espejo" value="si" checked>
-                        No<input type="radio" name="espejo" value="no">
+                        Gratis<input type="radio" name="espejo" value="gratis">
+                        Pago<input type="radio" name="espejo" value="pago">
                     </div>
                 </div>
             </div>
@@ -438,8 +445,8 @@
                         Amenities de baño
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="amenities-bano" value="si" checked>
-                        No<input type="radio" name="amenities-bano" value="no">
+                        Gratis<input type="radio" name="amenities-bano" value="gratis">
+                        Pago<input type="radio" name="amenities-bano" value="pago">
                     </div>
                 </div>
             </div>
@@ -453,8 +460,8 @@
                         Insonorización
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="insonorizacion" value="si" checked>
-                        No<input type="radio" name="insonorizacion" value="no">
+                        Gratis<input type="radio" name="insonorizacion" value="gratis">
+                        Pago<input type="radio" name="insonorizacion" value="pago">
                     </div>
                 </div>
             </div>
@@ -465,8 +472,8 @@
                        Conexión para PC
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="conec-pc" value="si" checked>
-                        No<input type="radio" name="conec-pc" value="no">
+                        Gratis<input type="radio" name="conec-pc" value="gratis">
+                        Pago<input type="radio" name="conec-pc" value="pago">
                     </div>
                 </div>
             </div>
@@ -479,8 +486,8 @@
                        Nevera
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="nevera" value="si" checked>
-                        No<input type="radio" name="nevera" value="no">
+                        Gratis<input type="radio" name="nevera" value="gratis">
+                        Pago<input type="radio" name="nevera" value="pago">
                     </div>
                 </div>
             </div>
@@ -491,8 +498,8 @@
                         Lavadora
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="lavadora" value="si" checked>
-                        No<input type="radio" name="lavadora" value="no">
+                        Gratis<input type="radio" name="lavadora" value="gratis">
+                        Pago<input type="radio" name="lavadora" value="pago">
                     </div>
                 </div>
             </div>
@@ -505,8 +512,8 @@
                        Toallas
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="toallas" value="si" checked>
-                        No<input type="radio" name="toallas" value="no">
+                        Gratis<input type="radio" name="toallas" value="gratis">
+                        Pago<input type="radio" name="toallas" value="pago">
                     </div>
                 </div>
             </div>
@@ -517,8 +524,8 @@
                        Lavavajillas
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="lavavajillas" value="si" checked>
-                        No<input type="radio" name="lavavajillas" value="no">
+                        Gratis<input type="radio" name="lavavajillas" value="gratis">
+                        Pago<input type="radio" name="lavavajillas" value="pago">
                     </div>
                 </div>
             </div>
@@ -532,8 +539,8 @@
                        Secadora
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="secadora" value="si" checked>
-                        No<input type="radio" name="secadora" value="no">
+                        Gratis<input type="radio" name="secadora" value="gratis">
+                        Pago<input type="radio" name="secadora" value="pago">
                     </div>
                 </div>
             </div>
@@ -544,8 +551,8 @@
                         Baño privado
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="bano-priv" value="si" checked>
-                        No<input type="radio" name="bano-priv" value="no">
+                        Gratis<input type="radio" name="bano-priv" value="gratis">
+                        Pago<input type="radio" name="bano-priv" value="pago">
                     </div>
                 </div>
             </div>
@@ -558,8 +565,8 @@
                         Baño compartido
                     </div>
                     <div class="col-md-4"> 
-                        Si<input type="radio" name="bano-comp" value="si" checked>
-                        No<input type="radio" name="bano-comp" value="no">
+                        Gratis<input type="radio" name="bano-comp" value="gratis">
+                        Pago<input type="radio" name="bano-comp" value="pago">
                     </div>
                 </div>
             </div>
@@ -632,6 +639,110 @@
 
           </tbody>
         </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Plancha pantalones</th>
+              <th scope="col">Sala</th>
+              <th scope="col">Telefono</th>
+              <th scope="col">Wifi</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr4"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">TV 4:3</th>
+              <th scope="col">TV 16:9</th>
+              <th scope="col">Pantalla plana</th>
+              <th scope="col">TV satelite</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr5"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">TV canal pago</th>
+              <th scope="col">Servicio en habitaciones</th>
+              <th scope="col">Mini bar</th>
+              <th scope="col">Kettle</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr6"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Cocina equipada</th>
+              <th scope="col">Kitchenette</th>
+              <th scope="col">Espejo maquillaje</th>
+              <th scope="col">Amenities de baño</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr7"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Insonorización</th>
+              <th scope="col">Conexión para PC</th>
+              <th scope="col">Nevera</th>
+              <th scope="col">Lavadora</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr8"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Toallas</th>
+              <th scope="col">Lavavajillas</th>
+              <th scope="col">Secadora</th>
+              <th scope="col">Baño privado</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr9"></tr>
+
+          </tbody>
+        </table>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Baño compartido</th>
+              <th scope="col">Observaciones</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr id="tr10"></tr>
+
+          </tbody>
+        </table>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
