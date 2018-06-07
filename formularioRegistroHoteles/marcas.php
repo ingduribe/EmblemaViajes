@@ -123,6 +123,14 @@
         </label>
       </div>
 
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="10%" src="./images/logo BIO TRAVELING - small.png" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia de viajes online de venta B2C (venta directa), para reservas hoteleras y otros servicios turísticos. Principalmente mercado nacional 80%, internacional 20%. Todas las categorías de hotel.         
+        </label>
+      </div>
+
 
 
 	    <div class="row justify-content-around">

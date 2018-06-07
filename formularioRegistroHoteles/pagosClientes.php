@@ -29,7 +29,7 @@
         </div>
 
         <div class="form-group text-center">     
-              <h5 class="text-center">Configuración de IVA/ImpuestosConfiguración de IVA/Impuestos</h5>
+              <h5 class="text-center">Configuración de IVA/Impuestos</h5>
 
               <div class="form-group" >
                  IVA 19% no incluido, pago obligatorio para ciudadano Colombiano o Extranjero residente 
@@ -63,7 +63,14 @@
                     Importe expresado en
                   </div>
                   <div class="col-md-6">
-                    <input type="number" class="form-control" id="iva_en" placeholder="%">  
+                    <select class="form-control" id="importe_en" name="importe">
+                      <option>COP/por estancia</option>
+                      <option>COP/por persona noche</option>
+                      <option>No aplicable</option>
+                      <option>No se puede calcular</option>
+                      <option>COP/por persona por estancia</option>
+                      <option>%</option>
+                    </select>
                   </div>
                 </div>
               </div>

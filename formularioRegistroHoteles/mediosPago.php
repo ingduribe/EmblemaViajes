@@ -47,9 +47,7 @@
           			<label for="">Hora de entrada</label>
           		</div>
           		<div class="col-md-6">
-          			<select class="form-control" id="hora_entrada" name="hora_entrada">
-		              
-		            </select>
+          			<input type="time" id="hora_entrada">
           		</div>
           	</div>
           </div>
@@ -60,9 +58,7 @@
           			<label for="">Hora de salida</label>
           		</div>
           		<div class="col-md-6">
-          			<select class="form-control" id="hora_salida" name="hora_salida">
-		        
-		            </select>
+                <input type="time" id="hora_salida">
           		</div>
           	</div>
           </div>
