@@ -7,7 +7,7 @@
           <div class="col-md-6 text-center">
           	<div class="row align-self-center">
           		<div class="col-md-6 align-self-center" >
-          			¿Puedes cobrar con tarjetas de crédito en el establecimiento?
+          			¿Puede cobrar con tarjetas de crédito en el establecimiento?
           		</div>
           		<div class="col-md-6">
                 Si<input type="radio" name="tarjet_estable" id="si" value="si">
