@@ -5,7 +5,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto text-center">
+    <ul class="navbar-nav text-right" style="margin-left: 50%;">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="accesoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Acceso

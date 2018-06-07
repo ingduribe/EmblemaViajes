@@ -131,6 +131,14 @@
         </label>
       </div>
 
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="10%" src="./images/logo EMBOX -small.png" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa) para reservas de CHEQUES y PAQUETES REGALO. Mercado nacional 50%, internacional 50%. Todas las categorías de hotel.          
+        </label>
+      </div>
+
 
 
 	    <div class="row justify-content-around">

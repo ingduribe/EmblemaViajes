@@ -55,7 +55,7 @@
               </div>
               <div class="form-group">
                  Se aplica un impuesto municipal<input type="radio" name="iva_muni" value="otro">
-                <input type="text" class="form-control" id="iva_muni" placeholder="Digite el nombre del impuesto">  
+                <input type="number" class="form-control" id="iva_muni" placeholder="$ Añadir el valor del impuesto $">  
               </div>
               <div class="form-group">
                 <div class="row">
@@ -64,11 +64,11 @@
                   </div>
                   <div class="col-md-6">
                     <select class="form-control" id="importe_en" name="importe">
-                      <option>COP/por estancia</option>
-                      <option>COP/por persona noche</option>
+                      <option>$/por estancia</option>
+                      <option>$/por persona noche</option>
                       <option>No aplicable</option>
                       <option>No se puede calcular</option>
-                      <option>COP/por persona por estancia</option>
+                      <option>$/por persona por estancia</option>
                       <option>%</option>
                     </select>
                   </div>
