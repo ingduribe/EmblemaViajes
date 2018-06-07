@@ -1692,10 +1692,10 @@
         </div>
 
 
-
-	    <div class="row justify-content-center">
-	      <button type="button" class="btn btn-success">Guardar</button>
-	    </div>
+        <div class="row justify-content-around">
+          <button type="button" class="btn btn-success">Guardar y seguir</button>
+          <button type="button" class="btn btn-outline-success">Guardar y seguir despues</button>
+        </div>
 
 	</div>
 </form>

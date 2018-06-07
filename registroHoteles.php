@@ -32,6 +32,9 @@
         include_once './formularioRegistroHoteles/infoFiscal.php';
         include_once './formularioRegistroHoteles/infoHabitacion.php';
         include_once './formularioRegistroHoteles/serviciosPropiedad.php';
+        include_once './formularioRegistroHoteles/mediosPago.php';
+        include_once './formularioRegistroHoteles/pagosClientes.php';
+        include_once './formularioRegistroHoteles/marcas.php';
       ?>
       
         <button type="submit" class="btn btn-outline-success btn-block">Guardar datos</button>
@@ -42,6 +45,8 @@
         <script src="./js/habitacion.js"></script>
         <script src="./js/propiedad.js"></script>
         <script src="./js/software.js"></script>
+        <script src="./js/mediosPago.js"></script>
+        <script src="./js/PagosClientes.js"></script>
 
 </div>
 </body>
