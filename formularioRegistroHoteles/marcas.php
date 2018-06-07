@@ -34,6 +34,95 @@
         </label>
       </div>
 
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo EB - small.jpg" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2B (venta a profesionales), para reservas hoteleras con acceso exclusivo a agencias, empresas y profesionales del turismo. Todos los destinos, mercados y categorías de hotel.  
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo RESERVEBARATO - small.jpg" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa), para reservas hoteleras, servicios complementarios y actividades. Las ventas son asistidas siempre a través de un agente de reservas de Emblema online, donde asesora al cliente de las opciones más económicas. La interactuación entre cliente y asesor es directa. Principalmente mercado nacional 80%, internacional 20%. Todas las categorías de hotel.  
+        </label>
+      </div>
+
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo TODOHOTELESCOLOMBIA - small.png" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa), para reservas de hoteles exclusivamente situados en Colombia. Mercado nacional 50%, internacional 50%. Todas las categorías de hotel.   
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo GOLF AND TRIP - small-lightbox.jpg" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa) y B2B (venta a profesionales), para reservas de hoteles especializados en el segmento Golf. Mercado nacional 50%, internacional 50%. Categorías de hotel a partir de 3 estrellas.   
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/emblema_rentals.jpg" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa) y B2B (venta a profesionales), para reservas de casas, apartamentos y otros alojamientos alternativos. Los hoteles que incluyan dentro de su estrategia de venta las reservas bajo modalidad “Full House” o reserva en exclusiva del hotel completo pueden afiliarse también a este canal. Mercado nacional 50%, internacional 50%.    
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/CASIOPEA white - small.png" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa) y B2B (venta a profesionales), para reservas de hoteles especializados en el segmento Lujo. Mercado nacional 50%, internacional 50%. Categorías de hotel a partir de 4 estrellas superior.    
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/MOCHILATRAVEL - small.png" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa) y B2B (venta a profesionales), para reservas de hoteles especializados en el segmento mochilero. Mercado nacional 50%, internacional 50%. Categorías de hotel bajas, hostales, moteles, etc. Alternativos a este colectivo de viajero.     
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo mejoratuhotel - small.png" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa), para reservas hoteleras. Las ventas son asistidas siempre a través de un agente de reservas de Emblema online, donde asesora al cliente de las opciones más económicas. La interactuación entre cliente y asesor es directa. Principalmente mercado nacional 80%, internacional 20%. Todas las categorías de hotel. Todas las categorías de hotel.     
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo TUSALONO - small.jpg" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online especializada en reserva y contratación de salones y espacios para eventos y reuniones y otros servicios complementarios. Portal indicado para hoteles con espacios, salones y venues. Mercado nacional 75%, internacional 25%, todas las categorías de hotel.      
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo BED & PRIDE - small.png" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia online de venta B2C (venta directa) y B2B (venta a profesionales), para reservas de hoteles especializados en el segmento LGTB. Mercado nacional 20%, internacional 80%. Todas las categorías de hotel.         
+        </label>
+      </div>
+
+      <div class="marcas mt-4">
+        <input class="mt-4" type="radio" class="form-control" id="emb_hoteles" >
+        <img width="20%" src="./images/logo MEJORATUVIAJE II - small.jpg" alt="">  
+        <label for="nombre contacto" class="col-md-8 col-form-label">
+          Agencia de viajes online de venta B2C (venta directa), para reservas hoteleras y otros servicios turísticos. Principalmente mercado nacional 80%, internacional 20%. Todas las categorías de hotel.         
+        </label>
+      </div>
+
 
 
 	    <div class="row justify-content-around">
