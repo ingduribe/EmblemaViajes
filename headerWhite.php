@@ -23,9 +23,9 @@
         </a>
         <div class="dropdown-menu text-center" aria-labelledby="registroDropdown">
           <a class="dropdown-item" href="#">Clientes</a>
-          <a class="dropdown-item" id="RegistroHoteles" href="registroHoteles.php">Hoteles</a>
-          <a class="dropdown-item" href="#">Empresas</a>
-          <a class="dropdown-item" href="#">Agencias</a>
+          <a class="dropdown-item" href="registroHoteles.php">Hoteles</a>
+          <a class="dropdown-item" href="">Empresas</a>
+          <a class="dropdown-item" href="registroAgencia.php">Agencias</a>
         </div>
       </li>
         <a href="intent://send/+573008132438#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"  class="btn btn-outline-primary font-weight-bold" role="button">

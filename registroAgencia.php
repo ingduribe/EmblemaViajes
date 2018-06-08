@@ -23,29 +23,11 @@
   
 
 <div class="container-fluid mt-1" >
-  <p class="display-3 text-center">Registre su propiedad</p>
+  <p class="display-3 text-center">Registre su Agencia</p>
     
       <?php 
-        include_once './formularioRegistroHoteles/contacto.php';
-        include_once './formularioRegistroHoteles/infoGeneral.php';
-        include_once './formularioRegistroHoteles/Software-Web.php';
-        include_once './formularioRegistroHoteles/infoFiscal.php';
-        include_once './formularioRegistroHoteles/infoHabitacion.php';
-        include_once './formularioRegistroHoteles/serviciosPropiedad.php';
-        include_once './formularioRegistroHoteles/mediosPago.php';
-        include_once './formularioRegistroHoteles/pagosClientes.php';
-        include_once './formularioRegistroHoteles/marcas.php';
-      ?>
 
-        <script src="./js/contacto.js"></script>
-        <script src="./js/fiscal.js"></script>
-        <script src="./js/general.js"></script>
-        <script src="./js/habitacion.js"></script>
-        <script src="./js/propiedad.js"></script>
-        <script src="./js/software.js"></script>
-        <script src="./js/mediosPago.js"></script>
-        <script src="./js/PagosClientes.js"></script>
-        <script src="./js/marcas.js"></script>
+      ?>
 
 </div>
 </body>
