@@ -17,7 +17,7 @@
 
 <body>
   <?php 
-  include_once 'headerWhite.php';
+        include_once 'headerWhite.php';
         include_once 'headerBlack.php'; 
         ?>
   
@@ -26,7 +26,8 @@
   <p class="display-3 text-center">Registre su Agencia</p>
     
       <?php 
-
+        include_once './formularioRegistroAgencias/agencia.php';
+        include_once './formularioRegistroAgencias/personales.php';
       ?>
 
 </div>
