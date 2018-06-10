@@ -1,140 +1,46 @@
 <form>
 	<div class="border border-secondary p-3">
-	  <p class="display-4 text-center">Datos de agencia</p>
+	  <p class="display-4 text-center">Datos de la empresa</p>
 
 	    <div class="form-group row">
-	    	<label for="nombre agencia" class="col-md-4 col-form-label">Nombre de la agencia</label>
+	    	<label for="nombre empresa" class="col-md-4 col-form-label">Nombre de la empresa</label>
 	      	<div class="col-md-8">
-		    	<input type="text" class="form-control" id="nombre_agencia" placeholder="Ingrese nombre de la agencia" required>  
+		    	<input type="text" class="form-control" id="nombre_agencia" placeholder="Ingrese nombre de la empresa" required>  
 		    </div>
 	  </div>
 	    	
 	    <div class="form-group row">
-	    	<label for="nombre agencia" class="col-md-4 col-form-label">Número fiscal</label>
+	    	<label for="numero_fiscal_empresa" class="col-md-4 col-form-label">Número fiscal</label>
 		    <div class="col-md-8">
 		      <input type="text" class="form-control" id="numero_fiscal" placeholder="Ingrese número fiscal" required> 
 		    </div>
 	    </div>
 
-	    <div class="form-group row">
-          <label class="col-md-4 col-form-label" for="segmento agencia">Segmento de la agencia</label>
-          <div class="col-md-8 text-center">
-            <select class="form-control " id="segmento_agencia">
-              <option>Agencia minorista</option>
-              <option>Agencia mayorista</option>
-              <option>Agencia minorista / mayorista</option>
-              <option>Operador turístico</option>
-              <option>Implant</option>
-              <option>Outplant</option>
-              <option>DMC</option>
-              <option>Agencia CCI(congresos, convenciones & incentivos)</option>
-              <option>Agencia equipos deportivos</option>
-              <option>Agencia grupos</option>
-              <option>Agencia empresas</option>
-              <option>Agencia reuniones y eventos</option>
-              <option>Agencia online</option>
-              <option>Otros</option>
-            </select>
-          </div>
-        </div>
-
         <div class="form-group row">
-	    	<label for="nombre agencia" class="col-md-4 col-form-label">IATA/TRUE</label>
+	    	<label for="ireccion_empresa" class="col-md-4 col-form-label">Dirección</label>
 		    <div class="col-md-8">
-		      <input type="text" class="form-control" id="numero_fiscal" placeholder="Ingrese iata/true" required> 
+		      <input type="text" class="form-control" id="direccion_agencia" placeholder="Ingrese direccion de la empresa" required>
 		    </div>
 	    </div>
 
-	    <div class="col-md-12 text-center">
-    		<div class="form-group row">
-    			<div class="col-md-8">
-    				¿Tu agencia pertenence a una consorcio o asociación local de agencias de viajes?
-    			</div>
-    			<div class="col-md-4"> 
-    				Si<input type="radio" name="asoc_agencias" value="si">
-    				No<input type="radio" name="asoc_agencias" value="no">
-    			</div>
-    		</div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-md-4 col-form-label" for="afirmativo">En caso afirmativo, por favor selecciona</label>
-          <div class="col-md-8 text-center">
-            <select class="form-control " id="segmento_agencia">
-              <option>ABC Global Services</option>
-              <option>AgencyConsortial</option>
-              <option>American Express Travel</option>
-              <option>ATPI</option>
-              <option>Barcelo Viajes</option>
-              <option>BCD Travel</option>
-              <option>Blueteam Travel Network</option>
-              <option>Capita Travel and Events</option>
-              <option>Carlson Wagonlit Travel</option>
-              <option>CCRA Travel Solutions</option>
-              <option>DERPART Travel Services</option>
-              <option>DER Touristik</option>
-              <option>Dr.Tigges</option>
-              <option>FCM Travel Solutions (Flight Center)</option>
-              <option>First Business Services</option>
-              <option>GRUPO AIRMET</option>
-              <option>GRUPO AVA</option>
-              <option>GRUPO AVANTOURS</option>
-              <option>GRUPO AVASA</option>
-              <option>GRUPO COSTA ESTE</option>
-              <option>GRUPO CYBAS</option>
-              <option>GRUPO EDENIA</option>
-              <option>GRUPO EUROPA</option>
-              <option>GRUPO GEA</option>
-              <option>GRUPO GEBTA</option>
-              <option>GRUPO GLAUKA</option>
-              <option>GRUPO OVER</option>
-              <option>GRUPO STAR</option>
-              <option>GSM Travel Management (Global Specialist Markets)</option>
-              <option>GTMC (Guild of Travel Management Companies)</option>
-              <option>HALCON VIAJES</option>
-              <option>Hickory Global Partnes</option>
-              <option>Holidayland</option>
-              <option>HRG (Hogg Robinson Group)</option>
-              <option>IAG7 VIAJES</option>
-              <option>ITP (International Travel Partnership)</option>
-              <option>Jet Viaggi Solutions</option>
-              <option>JTB  Global Marketing and Travel</option>
-              <option>Lufthansa Centro Ciudad</option>
-              <option>NAUTALIA VIAJES</option>
-              <option>NEGOSERVICIOS</option>
-              <option>OTHER</option>
-              <option>Radius Travel</option>
-              <option>Seneca Business Travel</option>
-              <option>TEAM GROUP</option>
-              <option>THOR Inc</option>
-              <option>TRAVEL ADVISORS</option>
-              <option>Travel Leaders Group</option>
-              <option>Travelsavers</option>
-              <option>TUI Leisure Travel</option>
-              <option>Ventura SPA</option>
-              <option>VIAJES CARRREFOUR</option>
-              <option>VIAJES ECUADOR</option>
-              <option>VIAJES EL CORTE INGLES</option>
-              <option>VIAJES EROSKI</option>
-              <option>VIRTUOSO>
-              <option>Weco Travel</option>
-              <option>WIN Travel</option>
-              <option>ZAFIRO TOURS</option>
-              <option>Otro</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="form-group row">
-	    	<label for="nombre agencia" class="col-md-4 col-form-label">Dirección</label>
+	    <div class="form-group row">
+	    	<label for="cp_empresa" class="col-md-4 col-form-label">CP</label>
 		    <div class="col-md-8">
-		      <input type="text" class="form-control" id="direccion_agencia" placeholder="Ingrese direccion" required>
+		      <input type="text" class="form-control" id="cp_empresa" placeholder="Ingrese CP" required>
 		    </div>
 	    </div>
+        
 	    <div class="form-group row">
-	    	<label for="nombre agencia" class="col-md-4 col-form-label">Ciudad</label>
+	    	<label for="poblacion_empresa" class="col-md-4 col-form-label">Población</label>
 		    <div class="col-md-8">
-		      <input type="text" class="form-control" id="ciudad_agencia" placeholder="Ingrese ciudad" required>
+		      <input type="text" class="form-control" id="poblacion_empresa" placeholder="Ingrese poblacion" required>
+		    </div>
+	    </div>
+
+	     <div class="form-group row">
+	    	<label for="provincia_empresa" class="col-md-4 col-form-label">Provincia</label>
+		    <div class="col-md-8">
+		      <input type="text" class="form-control" id="provincia_empresa" placeholder="Ingrese provincia" required>
 		    </div>
 	    </div>
 
@@ -204,7 +110,7 @@
 					<option value="61">Eritrea</option>
 					<option value="62">Eslovaquia</option>
 					<option value="63">Eslovenia</option>
-					<option value="64">España</option>
+					<option value="64">Espa&#241;a</option>
 					<option value="65">Estados Unidos</option>
 					<option value="66">Estonia</option>
 					<option value="67">Etiopia</option>
@@ -382,13 +288,19 @@
           </div>
         </div>
 
-        <div class="form-group row">
-	    	<label for="nombre agencia" class="col-md-4 col-form-label">CP</label>
+		<div class="form-group row">
+	    	<label for="email_empresa" class="col-md-4 col-form-label">Email</label>
 		    <div class="col-md-8">
-		      <input type="text" class="form-control" id="ciudad_agencia" placeholder="Ingrese CP" required>
+		      <input type="email" class="form-control" id="email_empresa" placeholder="Ingrese email" required>
 		    </div>
 	    </div>
 
+	    <div class="form-group row">
+	    	<label for="telefono_empresa" class="col-md-4 col-form-label">Telefono</label>
+		    <div class="col-md-8">
+		      <input type="text" class="form-control" id="telefono_empresa" placeholder="Ingrese telefono" required>
+		    </div>
+	    </div>
 
 	</div>
 </form>
