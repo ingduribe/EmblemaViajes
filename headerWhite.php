@@ -22,7 +22,7 @@
           Registro
         </a>
         <div class="dropdown-menu text-center" aria-labelledby="registroDropdown">
-          <a class="dropdown-item" href="#">Clientes</a>
+          <a class="dropdown-item" href="registroClientes.php">Clientes</a>
           <a class="dropdown-item" href="registroHoteles.php">Hoteles</a>
           <a class="dropdown-item" href="registroEmpresas.php">Empresas</a>
           <a class="dropdown-item" href="registroAgencia.php">Agencias</a>

@@ -110,7 +110,7 @@
 					<option value="61">Eritrea</option>
 					<option value="62">Eslovaquia</option>
 					<option value="63">Eslovenia</option>
-					<option value="64">Espa&#241;a</option>
+					<option value="64">España</option>
 					<option value="65">Estados Unidos</option>
 					<option value="66">Estonia</option>
 					<option value="67">Etiopia</option>
