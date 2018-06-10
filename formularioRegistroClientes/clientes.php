@@ -354,7 +354,7 @@
         </p>
 
         <p>
-          <strong><input type="checkbox"> He leído</strong>, acepto y estoy de acuerdo con las <strong class="text-primary">Política de privacidad.</strong><br>
+          <strong><input type="checkbox"> He leído</strong>, acepto y estoy de acuerdo con las <strong class="text-primary">Política de privacidad</strong> y <strong class="text-primary">Politica de cookies</strong><br>
           Emblema Viajes permite a los clientes y a los alojamientos comunicarse a través de Emblema Viajes, que recibe y procesa estas comunicaciones de acuerdo con la Política de privacidad y el Acuerdo de colaboración de Emblema Viajes.
         </p>
 

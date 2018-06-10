@@ -98,7 +98,7 @@
         </p>
 
         <p>
-          <strong><input type="checkbox"> He leído</strong>, acepto y estoy de acuerdo con el <strong class="text-primary">Acuerdo de colaboración</strong> y la <strong class="text-primary">Política de privacidad.</strong><br>
+          <strong><input type="checkbox"> He leído</strong>, acepto y estoy de acuerdo con los <strong class="text-primary">Terminos y condiciones</strong> y la <strong class="text-primary">Política de privacidad.</strong><br>
           Emblema Viajes permite a los clientes y a los alojamientos comunicarse a través de Emblema Viajes, que recibe y procesa estas comunicaciones de acuerdo con la Política de privacidad y el Acuerdo de colaboración de Emblema Viajes.
         </p>
 
