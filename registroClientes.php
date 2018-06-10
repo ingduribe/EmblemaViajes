@@ -23,7 +23,7 @@
   
 
 <div class="container-fluid mt-1" >
-  <p class="display-3 text-center">Registre su Cliente</p>
+  <p class="display-3 text-center">Registro de Cliente</p>
     
       <?php 
         include_once './formularioRegistroClientes/clientes.php';
