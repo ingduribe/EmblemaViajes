@@ -292,7 +292,7 @@
 		<div class="form-group row">
               <label class="col-md-4 col-form-label" for="servicios_contratar">Servicios a contratar</label>
               <div class="col-md-8 text-center">
-                <select class="form-control " id="servicios_contratar">
+                <select class="form-control" id="servicios_contratar" name="servicios_contratar">
                   <option>Hotel</option>
                   <option>Vuelo</option>
                   <option>Paquete vuelo + hotel</option>
@@ -307,8 +307,23 @@
                   <option>Seguro de viaje</option>
                   <option>Traslados aereopuerto - hotel - aereopuerto</option>
                 </select>
+              	<button class="btn btn-outline-primary" id="add_servicios">Añadir servicios</button>
+				<table class="table table-sm">
+				  <thead>
+				    <tr>
+				      <th scope="col">Nombre</th>
+				      <th scope="col">Acción</th>
+				    </tr>
+				  </thead>
+				  <tbody id="tbody_servi">
+				  </tbody>
+				</table>
               </div>
+              
+
           </div>
+
+
 
 
 			<div class="row">
