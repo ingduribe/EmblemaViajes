@@ -34,7 +34,7 @@
 	    <div class="form-group row">
           <label class="col-md-4 col-form-label" for="pais">Selecciona país</label>
           <div class="col-md-8 text-center">
-            <select class="form-control " id="pais">
+            <select class="form-control " name="pais" id="pais">
                     <option value="2">Afganistan</option>
 					<option value="3">Africa Central</option>
 					<option value="4">Albania</option>
@@ -331,10 +331,10 @@
 			    	Fechas de viajes (salida/regreso)
 				</div>
 				<div class="col-md-4">
-				    <input type="text" readonly class="form-control" id="datepickerLlegada" placeholder="Fecha de llegada" required>
+				    <input type="text" readonly class="form-control" name="llegada" id="datepickerLlegada" placeholder="Fecha de llegada" required>
 				</div>
 				<div class="col-md-4">
-			    	<input type="text" readonly class="form-control" id="datepickerSalida" placeholder="Fecha de salida" required>
+			    	<input type="text" readonly class="form-control" name="salida" id="datepickerSalida" placeholder="Fecha de salida" required>
 				</div>			   
 			</div>
 			<div class="row">
@@ -348,7 +348,7 @@
 			    	<input type="number" class="form-control" id="ninos" placeholder="Numero de niños" required>
 				</div>
 				<div class="col-md-3">
-			    	<input type="number" class="form-control" id="numeroPersonas" placeholder="Edad de los niños (Si tienen)" required>
+			    	<input type="number" class="form-control" id="edad_ninos" placeholder="Edad de los niños (Si tienen)" required>
 				</div>
 			</div>
 
@@ -365,16 +365,16 @@
         </div>
 
         <p>
-          <strong><input type="checkbox"> Certifico</strong> que esta es una empresa de alojamiento legal y que cuenta con todas las licencias y permisos necesarios, los cuales pueden mostrarse a primer requerimiento. Emblema Viajes SAS se reserva el derecho de verificar e investigar cualquier dato que se proporcione durante el registro.
+          <strong><input type="checkbox" name="certifico"> Certifico</strong> que esta es una empresa de alojamiento legal y que cuenta con todas las licencias y permisos necesarios, los cuales pueden mostrarse a primer requerimiento. Emblema Viajes SAS se reserva el derecho de verificar e investigar cualquier dato que se proporcione durante el registro.
         </p>
 
         <p>
-          <strong><input type="checkbox"> He leído</strong>, acepto y estoy de acuerdo con las <strong class="text-primary">Política de privacidad</strong> y las <strong class="text-primary">Política de cookies</strong><br>
+          <strong><input type="checkbox" name="acepto"> He leído</strong>, acepto y estoy de acuerdo con las <strong class="text-primary">Política de privacidad</strong> y las <strong class="text-primary">Política de cookies</strong><br>
           Emblema Viajes permite a los clientes y a los alojamientos comunicarse a través de Emblema Viajes, que recibe y procesa estas comunicaciones de acuerdo con la Política de privacidad y el Acuerdo de colaboración de Emblema Viajes.
         </p>
 
         <div class="row justify-content-around">
-          <button type="button" class="btn btn-primary">Guardar</button>
+          <button type="button" class="btn btn-primary" id="btn_guardar_cliente">Guardar</button>
         </div>
 
 	</div>

@@ -7,7 +7,8 @@ $(document).ready(function(){
 			modal:true,
 			resizable:true,
 			width: '80vw',
-			dialogClass: "no-close success-dialog"
+			dialogClass: "no-close success-dialog",
+			dateFormat: "yyyy-MM-dd"
 		});
 	});
 

@@ -55,16 +55,16 @@
       </div>
 
       <p>
-        <strong><input type="checkbox"> Certifico</strong> que esta es una empresa de alojamiento legal y que cuenta con todas las licencias y permisos necesarios, los cuales pueden mostrarse a primer requerimiento. Emblema Viajes SAS se reserva el derecho de verificar e investigar cualquier dato que se proporcione durante el registro.
+        <strong><input type="checkbox" name="certifico"> Certifico</strong> que esta es una empresa de alojamiento legal y que cuenta con todas las licencias y permisos necesarios, los cuales pueden mostrarse a primer requerimiento. Emblema Viajes SAS se reserva el derecho de verificar e investigar cualquier dato que se proporcione durante el registro.
       </p>
 
       <p>
-        <strong><input type="checkbox"> He leído</strong>, acepto y estoy de acuerdo con los <strong class="text-primary"><a target="_black"  href="formularioRegistroAgencias/terminos_cond.php">Terminos y condiciones</a></strong> y la <strong class="text-primary">Política de privacidad.</strong><br>
+        <strong><input type="checkbox" name="acepto"> He leído</strong>, acepto y estoy de acuerdo con los <strong class="text-primary"><a target="_black"  href="formularioRegistroAgencias/terminos_cond.php">Terminos y condiciones</a></strong> y la <strong class="text-primary">Política de privacidad.</strong><br>
         Emblema Viajes permite a los clientes y a los alojamientos comunicarse a través de Emblema Viajes, que recibe y procesa estas comunicaciones de acuerdo con la Política de privacidad y el Acuerdo de colaboración de Emblema Viajes.
       </p>
 
       <div class="row justify-content-around">
-        <button type="button" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-primary" id="btn_guardar_agencia">Guardar</button>
       </div>
 
         </div>

@@ -41,7 +41,7 @@
         <div class="form-group row">
 	    	<label for="nombre agencia" class="col-md-4 col-form-label">IATA/TRUE</label>
 		    <div class="col-md-8">
-		      <input type="text" class="form-control" id="numero_fiscal" placeholder="Ingrese iata/true" required> 
+		      <input type="text" class="form-control" id="iata" placeholder="Ingrese iata/true" required> 
 		    </div>
 	    </div>
 
@@ -60,7 +60,7 @@
         <div class="form-group row">
           <label class="col-md-4 col-form-label" for="afirmativo">En caso afirmativo, por favor selecciona</label>
           <div class="col-md-8 text-center">
-            <select class="form-control " id="segmento_agencia">
+            <select class="form-control " id="consorcio">
               <option>ABC Global Services</option>
               <option>AgencyConsortial</option>
               <option>American Express Travel</option>
@@ -141,7 +141,7 @@
 	    <div class="form-group row">
           <label class="col-md-4 col-form-label" for="pais">Selecciona país</label>
           <div class="col-md-8 text-center">
-            <select class="form-control " id="pais">
+            <select class="form-control " name="pais" id="pais">
                     <option value="2">Afganistan</option>
 					<option value="3">Africa Central</option>
 					<option value="4">Albania</option>
@@ -385,7 +385,7 @@
         <div class="form-group row">
 	    	<label for="nombre agencia" class="col-md-4 col-form-label">CP</label>
 		    <div class="col-md-8">
-		      <input type="text" class="form-control" id="ciudad_agencia" placeholder="Ingrese CP" required>
+		      <input type="text" class="form-control" id="cp" placeholder="Ingrese CP" required>
 		    </div>
 	    </div>
 
